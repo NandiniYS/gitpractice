@@ -1,0 +1,23 @@
+to initialize, type git init 
+u means untracked
+A means Added, Added means it is getting tracked
+README will always be in CAP
+git status--?to know the status of file
+to revert the file, use git rm --cached-- to make again as U
+
+to add multiple files in branch, use command "git add ."
+ from A to M when new changes are made in README file
+ git command -m "first comment" to push the file to github repo
+
+ git branch -M main -->to rename master branch to main
+
+ -m for modify, -M for rename
+
+ git push -u origin main-->push my code which is committed in main to origin
+
+ git remote add origin https://github.com/NandiniYS/gitpractice.git-->for a connection local repo to github
+
+ Before all above steps
+ config user 
+ git config --global user.name “[firstname lastname]
+ git config --global user.email “[firstname lastname]
