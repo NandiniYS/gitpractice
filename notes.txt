@@ -21,3 +21,8 @@ to add multiple files in branch, use command "git add ."
  config user 
  git config --global user.name “[firstname lastname]
  git config --global user.email “[firstname lastname]
+
+ in create new file, write .gitignore 
+ virtual env is a huge file to push to github, so gitignore(add env name in gitignore file) so that when git commit is done, commit will ignore virtual env
+
+ git clone filepath
